@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'futura';
+    
+}
+body{
+    overflow: hidden;
+}
+
+ /* Navigation */
+
+.nav
+{
+    
+    height: 100px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    position: fixed;
+    z-index: 99;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-left{
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+
+.nav-left img{
+    width: 45px;
+    
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.links a{
+    text-decoration: none;
+    color:#333;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+/* Navigation Ends*/
+
+
+/* Main */
+.page1{
+    padding:160px 0px 0px 0px;
+    height: 700px;
+    width: 100%;
+    
+}
+
+.page1 h1{
+    padding: 9px;
+    font-size: 180px;
+    text-transform: uppercase;
+    line-height: 150px;
+    letter-spacing: -5px;
+}
+
+.video-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    
+}
+.video-container video{
+    padding: 10px;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+/* Main Ended */
+
+/* page2 starts */
+.page2{
+    margin-top: 250px;
+    width: 100%;
+    height: 400px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+   
+}
+.elem{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.elem img{
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+    
+}
+/* page2 ends */
+
+/* page3 starts */
+.page3{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    
+    display: flex;
+}
+.page3-left{
+    width: 33.3%;
+    height: 500px;
+    
+}
+.page3-left img{
+    width: 100%;
+    margin-top: 5px;
+    
+}
+.info{
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.page3-right{
+    width: 33.3%;
+    height: 500px;
+    
+}
+.page3-right img{
+    width: 100%;
+    margin-top: 5px;
+}
+.page3-center{
+    width: 33.3%;
+    height: 500px;
+    
+}
+.page3-center img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.page4{
+    width: 100%;
+    height:1000px;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+page4-top{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    object-fit: cover;
+}
+.page4-top img{
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.page4-text{
+    width: 300px;
+    height: 200px;
+    
+    color: white;
+    position: absolute;
+    line-height: 50px;
+    top: 140px;
+    left: 40px;
+    
+}
+.page4-text #nismobtn{
+    width: 150px;
+    height: 40px;
+    
+    border-radius: 18px;
+    background-color: rgb(215, 9, 9);
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.page4-text1{
+    width: 350px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    line-height: 50px;
+    top: 65px;
+    right: 70px;
+}
+.page4-text1 #tspecbtn{
+    width: 150px;
+    height: 40px;
+    
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.page4-bottom{
+    width: 100%;
+    height:500px;
+   position: relative;
+    object-fit: cover;
+    
+}
+.page4-bottom img{
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    border-radius:20px;
+    
+}
+
+
+
+
+.final{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.final-top h1{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+
+.final-bottom{
+    width: 100%;
+    height: 80px;
+    
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.i1{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.i1 i{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+   
+    cursor: pointer;
+}
+.inventory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 100%;
+    background-color: #000000;
+    
+
+}
+
+
+
+@media (max-width:600px){
+    html,body
+    {
+        width: 100%;
+        height:250vh;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+        overflow-y: hidden;
+        
+        
+    }
+    
+   
+    .nav{
+        width:100%;
+    }
+    
+    .nav-left{
+        width: 38px;
+        height: 38px;
+        border-radius: 30px;
+    }
+    .nav-left img{
+        width: 30px;
+    }
+    .links{
+        display: none;
+        
+    }
+    
+    .page1{
+        width: 100%;
+        height: 530px;
+    }
+    .page1 h1{
+        
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: -4px;
+    }
+    .video-container video{
+        position: relative;
+        object-fit: cover;
+        border-radius: 0px;
+        
+        width: 100%;
+        height: 40%;
+        padding: 0px;
+        
+    
+    }
+    .page2{
+        margin-top: 0px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .elem{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        object-fit: cover;
+    }
+    .elem img{
+        height: 230px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 5px;
+    }
+
+    .page3{
+        height: 250px;
+    }
+    .info{
+        font-size: 10px;
+        line-height: 30px;
+        margin-bottom: 10%;
+    }
+    
+    .page3-left{
+        height: 250px;
+    }
+    .page3-right{
+        height: 250px;
+    }
+    .page3-center{
+        height: 250px;
+    }
+    .page4{
+       position: relative;
+        height: 500px;
+        
+        
+    }
+    .page4-top{
+        height: 250px;
+        margin-bottom: 5%;
+    }
+    .page4-bottom{
+        height: 250px;
+    }
+  
+    .page4-top img{
+        width: 100%;
+        height:100%;
+        padding: 10px;
+        object-fit: cover;
+    }
+
+    .page4-bottom img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        object-fit: cover;
+    }
+    .page4-text{
+        width: 300px;
+        height: 200px;
+        font-size: 8px;
+        line-height: 27px;
+        top: 50px;
+        left: 17px;
+        
+    }
+    .page4-text #nismobtn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+        cursor: pointer;
+       
+    }
+    .page4-text1{
+        width: 300px;
+        height: 200px;
+        font-size: 8px;
+        line-height: 27px;
+        top: 50px;
+        right: -160px;
+        
+    }
+    .page4-text1 #tspecbtn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+       cursor: pointer;
+    }
+
+    .final{
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .final-top h1{
+        padding: 20px;
+        font-size: 25px;
+        font-weight: 300;
+        
+    }
+    
+    
+    .final-bottom{
+        width: 100%;
+        height: 80px;
+        
+        font-size: 10px;
+        margin-top: 15px;
+        padding: 5px;
+        
+    }
+    .i1{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .i1 i{
+        font-size: 15px;
+        text-decoration: none;
+        
+    }
+    .final h1{
+        font-size: 20px;
+    }
+    .final p{
+        font-size:5px;
+    }
+   
+  
+}
+
+@media (max-width:750px){
+    html,body
+    {
+        width: 100%;
+        height:250vh;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+        overflow-y: hidden;
+        
+        
+    }
+    
+   
+    .nav{
+        width:100%;
+    }
+    
+    .nav-left{
+        width: 38px;
+        height: 38px;
+        border-radius: 30px;
+    }
+    .nav-left img{
+        width: 40px;
+    }
+    .links{
+        display: none;
+        
+    }
+    
+    .page1{
+        width: 100%;
+        height: 530px;
+    }
+    .page1 h1{
+        
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: -4px;
+    }
+    .video-container video{
+        position: relative;
+        object-fit: cover;
+        border-radius: 0px;
+        
+        width: 100%;
+        height: 40%;
+        padding: 0px;
+        
+    
+    }
+    .page2{
+        margin-top: 0px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .elem{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        object-fit: cover;
+    }
+    .elem img{
+        height: 230px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 5px;
+    }
+
+    .page3{
+        height: 250px;
+    }
+    .info{
+        font-size: 10px;
+        line-height: 30px;
+        margin-bottom: 10%;
+    }
+    
+    .page3-left{
+        height: 250px;
+    }
+    .page3-right{
+        height: 250px;
+    }
+    .page3-center{
+        height: 250px;
+    }
+    .page4{
+       position: relative;
+        height: 500px;
+        
+        
+    }
+    .page4-top{
+        height: 250px;
+        margin-bottom: 5%;
+    }
+    .page4-bottom{
+        height: 250px;
+    }
+  
+    .page4-top img{
+        width: 100%;
+        height:100%;
+        padding: 10px;
+        object-fit: cover;
+    }
+
+    .page4-bottom img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        object-fit: cover;
+    }
+    .page4-text{
+        width: 300px;
+        height: 200px;
+        font-size: 8px;
+        line-height: 27px;
+        top: 50px;
+        left: 17px;
+        
+    }
+    .page4-text #nismobtn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+        cursor: pointer;
+       
+    }
+    .page4-text1{
+        width: 300px;
+        height: 200px;
+        font-size: 8px;
+        line-height: 27px;
+        top: 50px;
+        right: -160px;
+        
+    }
+    .page4-text1 #tspecbtn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+       cursor: pointer;
+    }
+
+    .final{
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .final-top h1{
+        padding: 20px;
+        font-size: 25px;
+        font-weight: 300;
+        
+    }
+    
+    
+    .final-bottom{
+        width: 100%;
+        height: 80px;
+        
+        font-size: 10px;
+        margin-top: 15px;
+        padding: 5px;
+        
+    }
+    .i1{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .i1 i{
+        font-size: 15px;
+        text-decoration: none;
+        
+    }
+    .final h1{
+        font-size: 20px;
+    }
+    .final p{
+        font-size:5px;
+    }
+   
+  
+}
