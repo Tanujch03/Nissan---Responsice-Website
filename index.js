@@ -19,7 +19,7 @@ function loadanimation(){
     gsap.from(".page1 .video-container",{
         scale:0.9,
         opacity:0,
-        delay:1.3,
+        delay:1.5,
         duration:0.3,
        
     })
